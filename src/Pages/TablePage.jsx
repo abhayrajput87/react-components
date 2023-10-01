@@ -22,7 +22,10 @@ function TablePage() {
   }
 
   return (
+    <div>
+    <Table data={fruits} config={config} keyFn={keyFn} >Hello</Table>
     <SortableTable data={fruits} config={config} keyFn={keyFn} >Hello</SortableTable>
+    </div>
   )
 }
 
